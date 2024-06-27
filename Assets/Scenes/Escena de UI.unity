@@ -198,6 +198,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1522660347}
     m_Modifications:
+    - target: {fileID: 1891646910947623050, guid: 44043f4bbbebe6b4abc824f2d061177f,
+        type: 3}
+      propertyPath: PrecioAlimento
+      value: 350
+      objectReference: {fileID: 0}
     - target: {fileID: 5962078177586772766, guid: 44043f4bbbebe6b4abc824f2d061177f,
         type: 3}
       propertyPath: m_Name
@@ -370,6 +375,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pizza
       objectReference: {fileID: 0}
+    - target: {fileID: 9000835988925514549, guid: 071a5b39c855d0a45bd214ad20aa5731,
+        type: 3}
+      propertyPath: PrecioAlimento
+      value: 800
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 071a5b39c855d0a45bd214ad20aa5731, type: 3}
 --- !u!4 &159277086 stripped
@@ -482,6 +492,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 220087591}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &220087595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7004222561589732807, guid: 69c861742a0036749b8aa3353c7b9f6a,
+    type: 3}
+  m_PrefabInstance: {fileID: 220087591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &220087596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220087595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0750af3b128849541828d04a49fd6ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrecioAlimento: 250
 --- !u!1 &236605163
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,7 +579,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '200
+
+'
 --- !u!222 &236605166
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -710,7 +741,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '250
+
+'
 --- !u!222 &253897385
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -787,7 +820,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '600
+
+'
 --- !u!222 &255629181
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1070,7 +1105,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '800
+
+'
 --- !u!222 &317629527
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1248,6 +1285,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: palta
       objectReference: {fileID: 0}
+    - target: {fileID: 7442885453633838910, guid: 2ca4b74bb94263241b5be8cd882f0dc9,
+        type: 3}
+      propertyPath: PrecioAlimento
+      value: 600
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ca4b74bb94263241b5be8cd882f0dc9, type: 3}
 --- !u!4 &543303014 stripped
@@ -1402,7 +1444,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '350
+
+'
 --- !u!222 &588667235
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1479,7 +1523,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '900
+
+'
 --- !u!222 &628441259
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1556,7 +1602,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '550
+
+'
 --- !u!222 &636942652
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1710,7 +1758,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '600
+
+'
 --- !u!222 &712356073
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1787,7 +1837,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '400
+
+'
 --- !u!222 &803906425
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1864,7 +1916,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '800
+
+'
 --- !u!222 &923262105
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2055,7 +2109,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '750
+
+'
 --- !u!222 &964201472
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2132,7 +2188,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '200
+
+'
 --- !u!222 &998171031
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2209,7 +2267,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '750
+
+'
 --- !u!222 &1031436872
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2314,6 +2374,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1037398657}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1037398660 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6523842101122062897, guid: 9be957352fbcdc5428c8105c62290ef9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1037398657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1037398661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037398660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0750af3b128849541828d04a49fd6ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrecioAlimento: 450
 --- !u!1 &1093636444
 GameObject:
   m_ObjectHideFlags: 0
@@ -2382,7 +2461,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '200
+
+'
 --- !u!222 &1093636447
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2459,7 +2540,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '850
+
+'
 --- !u!222 &1135558494
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2536,7 +2619,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '450
+
+'
 --- !u!222 &1162121605
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2613,7 +2698,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '500
+
+'
 --- !u!222 &1165443661
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2690,7 +2777,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '850
+
+'
 --- !u!222 &1199222095
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2706,6 +2795,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1522660347}
     m_Modifications:
+    - target: {fileID: 4141698277386571357, guid: 1b7bb25ba36268b40b62158e68e9f3d5,
+        type: 3}
+      propertyPath: PrecioAlimento
+      value: 850
+      objectReference: {fileID: 0}
     - target: {fileID: 6594573305525226319, guid: 1b7bb25ba36268b40b62158e68e9f3d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3026,7 +3120,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '600
+
+'
 --- !u!222 &1344531455
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3199,6 +3295,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7415190149972563044, guid: c2d5b78884769ee42a5ce91eee8ff755,
+        type: 3}
+      propertyPath: PrecioAlimento
+      value: 750
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2d5b78884769ee42a5ce91eee8ff755, type: 3}
 --- !u!4 &1410688912 stripped
@@ -3230,6 +3331,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pera
+      objectReference: {fileID: 0}
+    - target: {fileID: 4640887173625136992, guid: 8182aa0b2d22d7b429768061e9bae256,
+        type: 3}
+      propertyPath: PrecioAlimento
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 6228975249883242829, guid: 8182aa0b2d22d7b429768061e9bae256,
         type: 3}
@@ -3493,7 +3599,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '350
+
+'
 --- !u!222 &1481384620
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3686,7 +3794,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '500
+
+'
 --- !u!222 &1531886993
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3763,7 +3873,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '400
+
+'
 --- !u!222 &1553603318
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3947,7 +4059,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '900
+
+'
 --- !u!222 &1595439277
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4037,6 +4151,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1618934161}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1618934164 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 230449934495815515, guid: d1a6258eecd8d154b90d64d65a68e9dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1618934161}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1618934165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618934164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0750af3b128849541828d04a49fd6ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrecioAlimento: 400
 --- !u!1001 &1692969997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4188,7 +4321,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '600
+
+'
 --- !u!222 &1752803188
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4278,6 +4413,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1799406101}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1799406104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7551030152471996936, guid: 54bc1a2be58798f4380148d7152113e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1799406101}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1799406105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799406104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0750af3b128849541828d04a49fd6ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrecioAlimento: 600
 --- !u!1 &1857311778
 GameObject:
   m_ObjectHideFlags: 0
@@ -4346,7 +4500,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '200
+
+'
 --- !u!222 &1857311781
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4499,6 +4655,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: hamburgesa
       objectReference: {fileID: 0}
+    - target: {fileID: 4094254564403474054, guid: 8fc2b911385c99f429994d11a6627420,
+        type: 3}
+      propertyPath: PrecioAlimento
+      value: 900
+      objectReference: {fileID: 0}
     - target: {fileID: 6437971699344326538, guid: 8fc2b911385c99f429994d11a6627420,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4597,7 +4758,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '550
+
+'
 --- !u!222 &2029403873
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4674,7 +4837,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '450
+
+'
 --- !u!222 &2050494007
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4775,6 +4940,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2068805693}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2068805697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1549611531216743122, guid: b66ca9ef706041c418542b9e31c37d03,
+    type: 3}
+  m_PrefabInstance: {fileID: 2068805693}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2068805698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068805697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0750af3b128849541828d04a49fd6ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrecioAlimento: 550
 --- !u!1 &2076901875
 GameObject:
   m_ObjectHideFlags: 0
@@ -4843,7 +5027,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '250
+
+'
 --- !u!222 &2076901878
 CanvasRenderer:
   m_ObjectHideFlags: 0
