@@ -386,8 +386,9 @@ MonoBehaviour:
   - {fileID: 1664537686}
   txtDinero: {fileID: 1364995609}
   btnAlcanzaYSobra: {fileID: 1444897422}
-  btnAlcanzaJusto: {fileID: 0}
-  btnNoAlcanza: {fileID: 0}
+  btnAlcanzaJusto: {fileID: 287018041}
+  btnNoAlcanza: {fileID: 956450428}
+  btnJugarDeNuevo: {fileID: 1144551235}
   PrecioTotal: 0
   panel: {fileID: 1672377124}
   PrecioComida: {fileID: 0}
@@ -1090,7 +1091,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 287018044}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 112993649}
+        m_MethodName: AlcanzaJusto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &287018044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1273,7 +1285,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317629524}
   m_LocalRotation: {x: -0, y: -0.4267859, z: -0, w: 0.9043527}
-  m_LocalPosition: {x: 0, y: 0, z: -207.9}
+  m_LocalPosition: {x: 0, y: 0, z: -173}
   m_LocalScale: {x: 0.5308947, y: 0.53089243, z: 0.5308946}
   m_Children: []
   m_Father: {fileID: 159277087}
@@ -1281,7 +1293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 267.5, y: -16.8}
+  m_AnchoredPosition: {x: 225, y: -16.8}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &317629526
@@ -2367,7 +2379,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923262102}
   m_LocalRotation: {x: -0, y: -0.4267859, z: -0, w: 0.9043527}
-  m_LocalPosition: {x: 0, y: 0, z: 731}
+  m_LocalPosition: {x: 0, y: 0, z: 753}
   m_LocalScale: {x: 0.5308947, y: 0.53089243, z: 0.5308946}
   m_Children: []
   m_Father: {fileID: 159277088}
@@ -2375,7 +2387,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 206, y: -16.7}
+  m_AnchoredPosition: {x: 179, y: -16.7}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &923262104
@@ -2498,7 +2510,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 956450431}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 112993649}
+        m_MethodName: NoAlcanza
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &956450431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3141,7 +3164,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1144551238}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 112993649}
+        m_MethodName: JugarDeNuevo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1144551238
 MonoBehaviour:
   m_ObjectHideFlags: 0
