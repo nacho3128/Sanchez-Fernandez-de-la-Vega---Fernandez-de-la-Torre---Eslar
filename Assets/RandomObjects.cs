@@ -12,9 +12,13 @@ public class RandomObjects : MonoBehaviour
     public Text txtDinero;
     int Dinero;
     public GameObject btnAlcanzaYSobra;
-    public int Valor;
+    public GameObject btnAlcanzaJusto;
+    public GameObject btnNoAlcanza;
     public int PrecioTotal;
     public GameObject panel;
+    public Precio PrecioComida;
+    public Precio PrecioComida2;
+    public Text textopanel;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,8 +35,7 @@ public class RandomObjects : MonoBehaviour
         }
         Food[RandomIndex1].SetActive(true);
         Food[RandomIndex2].SetActive(true);
-        Precio PrecioComida;
-        Precio PrecioComida2;
+      
         PrecioComida = Food[RandomIndex1].GetComponent<Precio>();
         PrecioComida2 = Food[RandomIndex2].GetComponent<Precio>();
         PrecioTotal = PrecioComida.PrecioAlimento + PrecioComida2.PrecioAlimento;
@@ -48,13 +51,13 @@ public class RandomObjects : MonoBehaviour
     public   void Alcanza()
     {
         panel.SetActive(true);
-        if(PrecioTotal > Dinero)
+        if(PrecioTotal < Dinero)
         {
-
+            textopanel.text = "¡Acertaste!";
         }
         else
         {
-
+            textopanel.text = "No acertaste";
         }
     }
     public void AlcanzaJusto()
@@ -62,23 +65,23 @@ public class RandomObjects : MonoBehaviour
         panel.SetActive(true);
         if (PrecioTotal == Dinero)
         {
-
+            textopanel.text = "¡Acertaste!";
         }
         else
         {
-
+            textopanel.text = "No acertaste";
         }
     }
     public void NoAlcanza()
     {
         panel.SetActive(true);
-        if (PrecioTotal < Dinero)
+        if (PrecioTotal > Dinero)
         {
-
+            textopanel.text = "¡Acertaste!";
         }
         else
         {
-
+            textopanel.text = "No acertaste";
         }
     }
 
