@@ -1,14 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 public class RandomObjects : MonoBehaviour
 {
     public GameObject[] Food;
     int RandomIndex1;
     int RandomIndex2;
+    public Text txtDinero;
+    int Dinero;
     // Start is called before the first frame update
     void Start()
     {
+        txtDinero.text = "0";
         foreach(GameObject fod in Food)
         {
             fod.SetActive(false);
@@ -21,11 +26,13 @@ public class RandomObjects : MonoBehaviour
         }
         Food[RandomIndex1].SetActive(true);
         Food[RandomIndex2].SetActive(true);
+        
+        Dinero=Random.Range(0,2000);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        txtDinero.text = Dinero.ToString();
     }
 }
