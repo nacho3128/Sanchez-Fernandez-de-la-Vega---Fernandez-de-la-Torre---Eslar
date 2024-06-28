@@ -40,7 +40,7 @@ public class RandomObjects : MonoBehaviour
         PrecioComida = Food[RandomIndex1].GetComponent<Precio>();
         PrecioComida2 = Food[RandomIndex2].GetComponent<Precio>();
         PrecioTotal = PrecioComida.PrecioAlimento + PrecioComida2.PrecioAlimento;
-        Dinero =Random.Range(0,2000);
+        Dinero =Random.Range(300,1500);
         
     }
 
@@ -96,7 +96,7 @@ public class RandomObjects : MonoBehaviour
         RandomIndex2 = Random.Range(0, Food.Length);
         Food[RandomIndex1].SetActive(true);
         Food[RandomIndex2].SetActive(true);
-        Dinero = Random.Range(0, 2000);
+        Dinero = Random.Range(300, 1500);
         PrecioComida = Food[RandomIndex1].GetComponent<Precio>();
         PrecioComida2 = Food[RandomIndex2].GetComponent<Precio>();
         PrecioTotal = PrecioComida.PrecioAlimento + PrecioComida2.PrecioAlimento;
