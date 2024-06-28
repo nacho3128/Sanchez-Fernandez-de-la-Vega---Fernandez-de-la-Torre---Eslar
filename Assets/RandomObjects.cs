@@ -10,10 +10,11 @@ public class RandomObjects : MonoBehaviour
     int RandomIndex2;
     public Text txtDinero;
     int Dinero;
+    public GameObject btnAlcanzaYSobra;
     // Start is called before the first frame update
     void Start()
     {
-        txtDinero.text = "0";
+        
         foreach(GameObject fod in Food)
         {
             fod.SetActive(false);
@@ -26,13 +27,51 @@ public class RandomObjects : MonoBehaviour
         }
         Food[RandomIndex1].SetActive(true);
         Food[RandomIndex2].SetActive(true);
-        
         Dinero=Random.Range(0,2000);
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        txtDinero.text = Dinero.ToString();
+       txtDinero.text = Dinero.ToString();
     }
+    private void Alcanza()
+    {
+     //Aparece el panel
+        if(RandomIndex1 + RandomIndex2 > Dinero)
+        {
+
+        }
+        else
+        {
+
+        }
+    }
+    private void AlcanzaJusto()
+    {
+        //Aparece el panel
+        if(RandomIndex1 + RandomIndex2 == Dinero)
+        {
+
+        }
+        else
+        {
+
+        }
+    }
+    private void NoAlcanza()
+    {
+        //Aparece el panel
+        if(RandomIndex1 + RandomIndex2 < Dinero)
+        {
+
+        }
+        else
+        {
+            
+        }
+    }
+
+    
 }

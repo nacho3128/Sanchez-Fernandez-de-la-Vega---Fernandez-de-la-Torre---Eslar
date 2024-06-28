@@ -359,6 +359,7 @@ MonoBehaviour:
   - {fileID: 245144309}
   - {fileID: 1664537686}
   txtDinero: {fileID: 1364995609}
+  btnAlcanzaYSobra: {fileID: 1444897422}
 --- !u!4 &112993650
 Transform:
   m_ObjectHideFlags: 0
@@ -495,7 +496,7 @@ PrefabInstance:
     - target: {fileID: 7004222561589732807, guid: 69c861742a0036749b8aa3353c7b9f6a,
         type: 3}
       propertyPath: m_Name
-      value: chile
+      value: Medialuna
       objectReference: {fileID: 0}
     - target: {fileID: 7430554973996557883, guid: 69c861742a0036749b8aa3353c7b9f6a,
         type: 3}
@@ -3722,7 +3723,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1444897425}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 112993648}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1444897425
 MonoBehaviour:
   m_ObjectHideFlags: 0
