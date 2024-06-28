@@ -36,7 +36,7 @@ public class RandomObjects : MonoBehaviour
     {
        txtDinero.text = Dinero.ToString();
     }
-    private void Alcanza()
+    public   void Alcanza()
     {
      //Aparece el panel
         if(RandomIndex1 + RandomIndex2 > Dinero)
@@ -48,7 +48,7 @@ public class RandomObjects : MonoBehaviour
 
         }
     }
-    private void AlcanzaJusto()
+    public void AlcanzaJusto()
     {
         //Aparece el panel
         if(RandomIndex1 + RandomIndex2 == Dinero)
@@ -60,7 +60,7 @@ public class RandomObjects : MonoBehaviour
 
         }
     }
-    private void NoAlcanza()
+    public void NoAlcanza()
     {
         //Aparece el panel
         if(RandomIndex1 + RandomIndex2 < Dinero)
@@ -69,7 +69,7 @@ public class RandomObjects : MonoBehaviour
         }
         else
         {
-            
+
         }
     }
 
