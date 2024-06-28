@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class RandomObjects : MonoBehaviour
 {
     public GameObject[] Food;
@@ -11,10 +12,13 @@ public class RandomObjects : MonoBehaviour
     public Text txtDinero;
     int Dinero;
     public GameObject btnAlcanzaYSobra;
+    public int Valor;
+    public int PrecioTotal;
+    public GameObject panel;
     // Start is called before the first frame update
     void Start()
     {
-        
+       
         foreach(GameObject fod in Food)
         {
             fod.SetActive(false);
@@ -27,8 +31,13 @@ public class RandomObjects : MonoBehaviour
         }
         Food[RandomIndex1].SetActive(true);
         Food[RandomIndex2].SetActive(true);
-        Dinero=Random.Range(0,2000);
-       
+        Precio PrecioComida;
+        Precio PrecioComida2;
+        PrecioComida = Food[RandomIndex1].GetComponent<Precio>();
+        PrecioComida2 = Food[RandomIndex2].GetComponent<Precio>();
+        PrecioTotal = PrecioComida.PrecioAlimento + PrecioComida2.PrecioAlimento;
+        Dinero =Random.Range(0,2000);
+        
     }
 
     // Update is called once per frame
@@ -38,8 +47,8 @@ public class RandomObjects : MonoBehaviour
     }
     public   void Alcanza()
     {
-     //Aparece el panel
-        if(RandomIndex1 + RandomIndex2 > Dinero)
+        panel.SetActive(true);
+        if(PrecioTotal > Dinero)
         {
 
         }
@@ -50,8 +59,8 @@ public class RandomObjects : MonoBehaviour
     }
     public void AlcanzaJusto()
     {
-        //Aparece el panel
-        if(RandomIndex1 + RandomIndex2 == Dinero)
+        panel.SetActive(true);
+        if (PrecioTotal == Dinero)
         {
 
         }
@@ -62,8 +71,8 @@ public class RandomObjects : MonoBehaviour
     }
     public void NoAlcanza()
     {
-        //Aparece el panel
-        if(RandomIndex1 + RandomIndex2 < Dinero)
+        panel.SetActive(true);
+        if (PrecioTotal < Dinero)
         {
 
         }
